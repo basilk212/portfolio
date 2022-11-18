@@ -12,6 +12,10 @@
 
 }
 
+.nav-pills .nav-link{
+    border-radius: 5px;
+}
+
 .btn-outline-secondary:hover{
     color: var(--light);
 }
