@@ -1,16 +1,28 @@
 /********** Template CSS **********/
 :root {
-    --primary: #002F4A;
-    --secondary: #006CCF;
+    --primary: #358CEE;
+    --secondary: #F03A57;
     --light: #FAFAFB;
     --dark: #00273E;
 }
 
-.btn-outline-secondary{
-    color: var(--secondary);
-    border-color: var(--secondary);
-
+.btn-secondary{
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary) !important;
+    color: #FFFFFF;
 }
+.btn-secondary:hover {
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary) !important;
+ }
+
+ .btn-secondary:hover, .btn-primary:hover{
+     opacity: 0.6;
+ }
+
+ .btn-primary.linkedin{
+     background: #0077B5 !important;
+ }
 
 .logo{
     max-width: 150px;
@@ -74,14 +86,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
 }
 .btn.btn-primary{
     background-color: var(--primary);
+    color: #FFFFFF !important;
 }
 
-.btn-primary:hover{
+.btn-primary:hover, .btn-primary:hover{
     opacity: 0.9;
 }
 
 .text-primary{
-    color: var(--secondary) !important;
+    color: var(--primary) !important;
 }
 
 .btn-square {
